@@ -2,8 +2,8 @@
 ## recover it later, rather than recalculating it (if the matrix does not change)
 
 
-    ## makeCacheMatrix takes the matrix input and solves the inverse of the marix.
-    ## The solution and input matrix is cached in a different environment, which can be recalled.
+     ## makeCacheMatrix takes the matrix input and solves the inverse of the marix.
+     ## The solution and input matrix is cached in a different environment, which can be recalled.
 
 makeCacheMatrix <- function(x = matrix()) {
 
